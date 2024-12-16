@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    position: relative;
+
+
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.box-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    font-family: "Fira Code Medium";
+    font-size: 18.5px;
+}
+
+
+.box-content1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 16.5px;
+    font-family: "Fira Code Medium";
+}
+
+.img {
+    max-width: 500px;
+    height:400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.img1 {
+    max-width: 500px;
+    height: auto;
+}
+
+h1{
+    color: ghostwhite;
+}
+
+h2 {
+    color: #35424a;
+}
+
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #35424a;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.back-to-top:hover {
+    background-color: #2a373f;
+}
+
+
+body:has(.back-to-top) .back-to-top {
+    display: block;
+}
