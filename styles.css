@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: lightslategray;
     position: relative;
 
 
@@ -34,7 +34,7 @@ nav ul li a {
 section {
     padding: 20px;
     margin: 20px;
-    background: #ffffff;
+    background: lightgray;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
